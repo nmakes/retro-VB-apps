@@ -1,0 +1,170 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\VB\Spotlite Surf\Surf
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+1=
+
+[Package|Dep File 1|Missing Dependency Information]
+D:\Program Files\Mozilla ActiveX Control v1.7.12\mozctl.dll=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+
+[Package|Dep File 1|Files Added]
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+C:\VB\Spotlite Surf\Spotlite Surf.exe=Yes
+D:\WINDOWS\system32\msvbvm60.dll=Yes
+D:\WINDOWS\system32\oleaut32.dll=Yes
+D:\WINDOWS\system32\olepro32.dll=Yes
+D:\WINDOWS\system32\asycfilt.dll=Yes
+D:\WINDOWS\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+D:\Program Files\Mozilla ActiveX Control v1.7.12\mozctl.dll=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=
+
+[Package|Dep File 1|Install Locations]
+C:\VB\Spotlite Surf\Spotlite Surf.exe=$(AppPath)
+D:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+D:\Program Files\Mozilla ActiveX Control v1.7.12\mozctl.dll=$(WinSysPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=
+
+[Package|Dep File 1|DepFile]
+DepCabFile=Spotlite Surf Setup.CAB
+DepCabRun=Spotlite Surf.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=C:\VB\Spotlite Surf\Surf
+ProjectFolder=C:\VB\Spotlite Surf
+ServerSideCab=
+File1=C:\VB\Spotlite Surf\Surf\Spotlite Surf.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\VB\Spotlite Surf\Surf
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+1=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+D:\Program Files\Mozilla ActiveX Control v1.7.12\mozctl.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\VB\Spotlite Surf\Spotlite Surf.exe=Yes
+D:\WINDOWS\system32\msvbvm60.dll=Yes
+D:\WINDOWS\system32\oleaut32.dll=Yes
+D:\WINDOWS\system32\olepro32.dll=Yes
+D:\WINDOWS\system32\asycfilt.dll=Yes
+D:\WINDOWS\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+D:\Program Files\Mozilla ActiveX Control v1.7.12\mozctl.dll=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\VB\Spotlite Surf\Spotlite Surf.exe=$(AppPath)
+D:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+D:\Program Files\Mozilla ActiveX Control v1.7.12\mozctl.dll=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\VB\Spotlite Surf\Spotlite Surf.exe=Yes
+
+[Package|Standard Setup Package 1|DepFile]
+DepCabFile=Spotlite Surf Setup.CAB
+DepCabRun=Spotlite Surf.INF
+
+[Package|Standard Setup Package 1|Distribution]
+Type=multi
+Size=720 KB
+Title=Spotlite Surf Setup
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=$(Start Menu)
+PrivateGroup0=True
+Parent0=
+
+[Package|Standard Setup Package 1|$(Start Menu)]
+Icon1="Spotlite Surf.exe"
+Title1=Spotlite Productions
+StartIn1=$(AppPath)
+Key1=Icon4
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\VB\Spotlite Surf\Surf
+ProjectFolder=C:\VB\Spotlite Surf
+ServerSideCab=
+File1=C:\VB\Spotlite Surf\Surf\setup.exe
+File2=C:\VB\Spotlite Surf\Surf\Setup.Lst
+File3=C:\VB\Spotlite Surf\Surf\Spotli1.CAB
+File4=C:\VB\Spotlite Surf\Surf\Spotli2.CAB
+File5=C:\VB\Spotlite Surf\Surf\Spotli3.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
